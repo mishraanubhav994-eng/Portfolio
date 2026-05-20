@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Anubhav Mishra — Frontend Developer & Open Source Learner." />
+  <title>Anubhav Mishra — Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="#hero" class="nav-logo">&lt;<span>AM</span>/&gt;</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div id="hero">
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-tag">Available for Opportunities</div>
+        <h1 class="hero-name">
+          <span class="line1">Anubhav</span>
+          <span class="line2">Mishra</span>
+        </h1>
+        <p class="hero-subtitle">
+          <strong><span id="typed-text">Frontend Developer</span></strong><br>
+          Building clean UIs with solid <strong>C++ &amp; DSA</strong> foundations.
+          Student @ <strong>MMMUT Gorakhpur</strong> &#127891;
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="photo-frame">
+          <img src="anubhav.jpeg" alt="Anubhav Mishra" loading="eager" />
+        </div>
+        <div class="photo-badge">Available to hire</div>
+      </div>
+    </div>
+    <div class="scroll-hint">SCROLL</div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <p class="section-label reveal">01 &mdash; Introduction</p>
+    <h2 class="section-title reveal">About <span>Me</span></h2>
+    <div class="section-line reveal"></div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>Hi! I'm <strong>Anubhav Mishra</strong>, a passionate <strong>Frontend Developer</strong> and Open Source enthusiast pursuing B.Tech at MMMUT Gorakhpur in IT &amp; Computer Applications.</p>
+        <p>I love crafting clean, performant web interfaces and solving algorithmic problems using <strong>C++ &amp; DSA</strong>. Pixel-perfect UI or optimising a data structure &mdash; I'm all in.</p>
+        <p>When not coding, I'm exploring open source communities, contributing to projects, and levelling up on LeetCode &amp; Codeforces.</p>
+        <div style="margin-top:1.5rem;"><a href="#contact" class="btn-primary">Let's Connect</a></div>
+      </div>
+      <div class="about-card reveal">
+        <div class="card-title">Quick Info</div>
+        <ul class="info-list">
+          <li>&#127891; &nbsp;B.Tech ITCA &mdash; MMMUT Gorakhpur</li>
+          <li>&#128205; &nbsp;Gorakhpur, Uttar Pradesh, India</li>
+          <li>&#128187; &nbsp;Frontend Developer</li>
+          <li>&#9889; &nbsp;C++ &amp; DSA Enthusiast</li>
+          <li>&#127760; &nbsp;Open Source Learner</li>
+          <li>&#128140; &nbsp;mishraanubhav994@gmail.com</li>
+        </ul>
+        <div class="stat-row">
+          <div class="stat"><span class="stat-num">2+</span><span class="stat-lbl">Projects</span></div>
+          <div class="stat"><span class="stat-num">6+</span><span class="stat-lbl">Skills</span></div>
+          <div class="stat"><span class="stat-num">&#8734;</span><span class="stat-lbl">Curiosity</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <p class="section-label reveal">02 &mdash; Expertise</p>
+    <h2 class="section-title reveal">My <span>Skills</span></h2>
+    <div class="section-line reveal"></div>
+    <div class="skills-grid">
+      <div class="skill-card reveal"><div class="skill-icon">&#127760;</div><div class="skill-name">HTML5</div><div class="skill-tag">Markup</div><div class="skill-bar-wrap"><div class="skill-bar" data-width="92%"></div></div></div>
+      <div class="skill-card reveal"><div class="skill-icon">&#127912;</div><div class="skill-name">CSS3</div><div class="skill-tag">Styling</div><div class="skill-bar-wrap"><div class="skill-bar" data-width="86%"></div></div></div>
+      <div class="skill-card reveal"><div class="skill-icon">&#9889;</div><div class="skill-name">JavaScript</div><div class="skill-tag">Scripting</div><div class="skill-bar-wrap"><div class="skill-bar" data-width="80%"></div></div></div>
+      <div class="skill-card reveal"><div class="skill-icon">&#128311;</div><div class="skill-name">C++</div><div class="skill-tag">Language</div><div class="skill-bar-wrap"><div class="skill-bar" data-width="78%"></div></div></div>
+      <div class="skill-card reveal"><div class="skill-icon">&#129713;</div><div class="skill-name">DSA in C++</div><div class="skill-tag">Algorithms</div><div class="skill-bar-wrap"><div class="skill-bar" data-width="74%"></div></div></div>
+      <div class="skill-card reveal"><div class="skill-icon">&#128025;</div><div class="skill-name">Git / GitHub</div><div class="skill-tag">Version Control</div><div class="skill-bar-wrap"><div class="skill-bar" data-width="83%"></div></div></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <p class="section-label reveal">03 &mdash; Work</p>
+    <h2 class="section-title reveal">Featured <span>Projects</span></h2>
+    <div class="section-line reveal"></div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-icon">&#10060;&#11093;</div>
+        <div class="project-num">PROJECT / 01</div>
+        <h3 class="project-title">Tic Tac Toe</h3>
+        <p class="project-desc">Classic 2-player Tic Tac Toe with real-time win/draw detection, animated moves, and smooth one-click restart. Built in pure vanilla JS.</p>
+        <div class="project-tags">
+          <span class="project-tag">HTML</span>
+          <span class="project-tag">CSS</span>
+          <span class="project-tag">JavaScript</span>
+        </div>
+        <a href="https://github.com/mishraanubhav994-eng" target="_blank" rel="noopener" class="project-link">View on GitHub <span class="arrow">&#8594;</span></a>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-icon">&#129518;</div>
+        <div class="project-num">PROJECT / 02</div>
+        <h3 class="project-title">Calculator</h3>
+        <p class="project-desc">Fully functional calculator with clean minimal UI. Supports all arithmetic ops, keyboard input, and a fully responsive layout for all screen sizes.</p>
+        <div class="project-tags">
+          <span class="project-tag">HTML</span>
+          <span class="project-tag">CSS</span>
+          <span class="project-tag">JavaScript</span>
+        </div>
+        <a href="https://github.com/mishraanubhav994-eng" target="_blank" rel="noopener" class="project-link">View on GitHub <span class="arrow">&#8594;</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="section-label reveal">04 &mdash; Let's Talk</p>
+    <h2 class="section-title reveal">Get In <span>Touch</span></h2>
+    <div class="section-line reveal"></div>
+    <div class="contact-wrapper">
+      <div class="contact-card reveal">
+        <p class="contact-desc">Open to frontend roles, open source collabs, and project partnerships. Drop a mail or connect on LinkedIn &mdash; I usually respond within 24 hours!</p>
+        <span class="contact-email">mishraanubhav994@gmail.com</span>
+        <a href="mailto:mishraanubhav994@gmail.com" class="btn-primary">Send Email &#9993;</a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/anubhav-mishra-350851378/" target="_blank" rel="noopener" class="social-btn">
+            <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/mishraanubhav994-eng" target="_blank" rel="noopener" class="social-btn">
+            <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+          <a href="mailto:mishraanubhav994@gmail.com" class="social-btn">
+            <svg viewBox="0 0 24 24"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.909 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+            Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    Designed &amp; Built by <span class="accent">Anubhav Mishra</span>
+    &nbsp;&middot;&nbsp; Made with <span class="heart">&#9829;</span>
+    &nbsp;&middot;&nbsp; 2024
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
